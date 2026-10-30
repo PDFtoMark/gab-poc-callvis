@@ -1,0 +1,9 @@
+name: callvis
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  call:
+    uses: PDFtoMark/gab-poc-calleepriv/.github/workflows/reusable.yml@main
+    with:
+      debug: true
