@@ -4,6 +4,6 @@ on:
   workflow_dispatch:
 jobs:
   call:
-    uses: PDFtoMark/gab-poc-calleepriv/.github/workflows/reusable.yml@main
+    uses: PDFtoMark/gab-poc-calleepub/.github/workflows/reusable.yml@main
     with:
       debug: true
